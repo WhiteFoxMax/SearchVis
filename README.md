@@ -1,2 +1,2 @@
 # SearchVis
-This project will be about trying a new ways to visualize the data that we recieve from search engines.
+This project is about finding a new interesting way to visualize search engine result data.
