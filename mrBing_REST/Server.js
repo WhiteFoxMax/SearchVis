@@ -10,7 +10,6 @@ function REST(){
 
 REST.prototype.configureExpress = function() {
       var self = this;
-      console.log("test");
       app.use(bodyParser.urlencoded({ extended: true }));
       app.use(bodyParser.json());
       var router = express.Router();
@@ -21,7 +20,7 @@ REST.prototype.configureExpress = function() {
 }
 
 REST.prototype.startServer = function() {
-  console.log("Problem here");
+      console.log("calling applisten on port 3000");
       app.listen(3000,function(){
           console.log("All right ! I am alive at Port 3000.");
       });
